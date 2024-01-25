@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic-Lights</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="Traffic-container">
+        <h1>Traffic Light</h1>
+        <div>
+            <div class="traffic-box">
+                <div class="btn-lights">
+                    <button class="btn-btn" id="stopButton" onclick="turnOnRed()">Stop</button>
+                    <button class="btn-btn" id="readyButton" onclick="turnOnYellow()">Ready</button>
+                    <button class="btn-btn" id="goButton" onclick="turnOnGreen()">Go</button>
+                </div>
+                <div class="bulb-lights">
+                    <div id="stopLight" class="bulb"></div>
+                    <div id="readyLight" class="bulb"></div>
+                    <div id="goLight" class="bulb"></div>
+                </div>
+            </div>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

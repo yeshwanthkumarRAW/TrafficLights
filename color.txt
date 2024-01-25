@@ -1,0 +1,5 @@
+Red:#cf1124
+Yellow:#f7c948
+Green:#199473
+default button color:#1f1d41
+default light color: #4b5069
